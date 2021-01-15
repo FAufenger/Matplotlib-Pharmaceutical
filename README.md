@@ -10,30 +10,39 @@ As a senior data analyst at the company, you've been given access to the complet
 
 Your tasks are to do the following:
   * Check the data for any mouse ID with duplicate time points and remove any data associated with that mouse ID.
+  
   ![Duplicated Mouse ID](./img/duplicated_mouse_id.png)
 
   * Generate a summary statistics table consisting of the mean, median, variance, standard deviation, and SEM of the tumor volume for each drug regimen.
+  
   ![Summary Stastics](./img/summary_stastics.png)
  
   * Generate a bar plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the total number of measurements taken for each treatment         regimen throughout the course of the study.
+  
   ![Total Measurements Taken](./img/total_measurements_taken.png)
   
   * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
+  
   ![Male vs Female Mice in Study](./img/sex_of_mice.png)
   
   * Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Calculate     the quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens.
+  
   ![Final Tumor Outlier](./img/final_tumor_outlier.png)
   
   * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot     by changing their color and style.
+  
   ![Final Tumor Volume](./img/box_plot_tumor.png)
 
   * Select a mouse that was treated with Capomulin and generate a line plot of tumor volume vs. time point for that mouse.
+  
   ![Selected mouse treated with Capomilin](./img/selected_mouse_line_plot.png)
 
   * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
+  
   ![Mouse weight vs Tumor size](./img/mouse_weight_vs_tumor_size.png)
 
   * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear     regression model on top of the previous scatter plot.
+  
   ![Regression of Weight vs Tumor Size](./img/regression.png)
 
 
